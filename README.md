@@ -157,7 +157,7 @@ The comparison results are as follows:
 
 ### Abourt Data:
 
-The raw detection data can be download from ScienceDB (Data DOI10.57760/sciencedb.02891)
+The raw detection data can be download from ScienceDB (Data DOI:10.57760/sciencedb.02891)
 
 Here, the data used for tracking is converted to MOT formate. If you want to convert it yourself, you can:  
 
