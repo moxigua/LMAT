@@ -59,7 +59,7 @@ $ opencv, numpy, open3d, pickle, scipy, matplotlib, skimage, glob, filterpy, lap
 ### Show LMAT Demo Results:
 
 1. enter <working_directory>/mapAidedTracking/yananstreet_tracker_function. 
-2. Run ShowTracker.py or ShowTrackerWithBoundingBox.py
+2. Run ShowTracker.py or ShowTrackerWithBoundingBox.py. Note, "ShowTrackerWithBoundingBox.py" will show point cloud of detections. Thus, if run, you should download detections at Site yananstreet from ScienceDB (Data DOI:10.57760/sciencedb.02891).
   ``` 
   $ python ShowTrackerWithBoundingBox.py
   ``` 
@@ -155,9 +155,9 @@ The comparison results are as follows:
 3. get results in bytetrack/output_byte/ 
 
 
-### Abourt Data:
+### About Data:
 
-The raw detection data can be download from ScienceDB (Data DOI:10.57760/sciencedb.02891)
+The raw detection data can be downloaded from ScienceDB (Data DOI:10.57760/sciencedb.02891)
 
 Here, the data used for tracking is converted to MOT formate. If you want to convert it yourself, you can:  
 
