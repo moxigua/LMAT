@@ -138,7 +138,7 @@ The comparison results are as follows:
 1. rename it as det.txt
 2. run sort.py in ocsort dirctory.
   ```
-  $ python tools/track_roadside.py
+  $ python track_roadside.py
   ```
 3. get results in ocsort/output_oc/
 
@@ -150,7 +150,7 @@ The comparison results are as follows:
 1. rename it as det.txt
 2. run sort.py in bytetrack dirctory.
   ```
-  $ python tools/track_roadside_byte_tracker.py
+  $ python track_roadside_byte_tracker.py
   ```
 3. get results in bytetrack/output_byte/ 
 
