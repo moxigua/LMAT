@@ -52,9 +52,17 @@ Here, We have published the all labled gt and the results of LMAT. Also, we publ
 
 To install required dependencies:
 ```
-$ opencv, numpy, open3d, pickle, scipy, matplotlib, skimage, glob, filterpy, lap, motmetrics
+$ opencv, numpy, open3d, pickle, scipy, matplotlib, skimage, glob, filterpy, lap, motmetrics, Cython-bbox
 
 ```
+
+Note, It is better to install Cython-bbox through source code:
+1. download source code from: https://pypi.org/project/cython-bbox/#files
+2. decompression
+3. replace ```extra_compile_args=[’-Wno-cpp’]``` with  ```extra_compile_args={'gcc': ['/Qstd=c99']}```
+4. save. Then to the directory of cython_bbox, run ```python setup.py build_ext install``` in commond.
+
+
 
 ### Show LMAT Demo Results:
 
