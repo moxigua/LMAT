@@ -3,8 +3,8 @@ from collections import deque
 import os
 import os.path as osp
 import copy
-import torch
-import torch.nn.functional as F
+# import torch
+# import torch.nn.functional as F
 
 from .kalman_filter import KalmanFilter
 from trackers.byte_tracker import matching
